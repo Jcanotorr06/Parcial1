@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sitio</class>
+ <widget class="QWidget" name="sitio">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1117</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>773</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>871</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="bottomMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0" colspan="2">
+       <widget class="QLabel" name="lb_sitio">
+        <property name="font">
+         <font>
+          <family>SansSerif</family>
+          <pointsize>18</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Nombre del Sitio</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="btn_salir">
+        <property name="font">
+         <font>
+          <family>SansSerif</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 23, 27);</string>
+        </property>
+        <property name="text">
+         <string>Salir</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QLabel" name="foto_sitio">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>bocasdeltoro.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="btn_reservar">
+        <property name="font">
+         <font>
+          <family>SansSerif</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Reservar</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QLabel" name="desc_sitio">
+        <property name="font">
+         <font>
+          <family>SansSerif</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed ornare mauris, eget condimentum dolor. Vestibulum commodo sem non augue fringilla, sed lobortis quam euismod. Praesent posuere lacus eu tortor commodo, nec bibendum augue cursus. Suspendisse potenti. Etiam varius ornare ligula eget laoreet. Nullam mattis vestibulum massa, vitae ultrices erat tincidunt et. Nullam in felis eu felis convallis vestibulum.</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="2" column="0">
+       <widget class="QListWidget" name="lista_beneficios">
+        <property name="font">
+         <font>
+          <family>SansSerif</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Comida</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Transporte</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hospedaje</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Guía Turistico</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Paquete de Eventos</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fotografo</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lb_beneficios">
+        <property name="font">
+         <font>
+          <family>SansSerif</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Beneficios</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
