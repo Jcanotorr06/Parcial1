@@ -11,4 +11,4 @@ if name not in sys.modules:
 	install(name)
 else:
 	print('Goodbye')
-os.system('python .\gui\main.py')
+os.system('main.py.lnk')
