@@ -51,21 +51,21 @@ sitios = [
         ),
         SitioTuristico(
             'Cayos Zapatilla',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Cayos Zapatilla es un grupo de dos islas deshabitadas, rodeadas de un arrecife de coral, situadas al este de la Isla Bastimentos, en el archipiélago de Bocas del Toro, en la provincia del mismo nombre al noroeste del país centroamericano de Panamá.',
             './sitios/zapatilla.jpg',
             110.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Isla Colón',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'La capital de la Provincia de Bocas del Toro, es Isla Colón, situada al noreste de la República de Panamá, con una extensión de 8,475 kms2. Bocas posee un litoral muy accidentado, con bahías, puntas y un espectacular archipiélago con 9 islas, 5 islotes y 200 islas rocosas. Isla Colón destaca por su arquitectura caribeña, la hospitalidad de sus habitantes, y la cocina, típica del área, picante, deliciosa y única.',
             './sitios/iscolon.jpg',
             175.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Parque Internacional La Amistad',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Creado en 1988 por una iniciativa de los gobiernos de Panamá y Costa Rica, el Parque Internacional La Amistad, conocido popularmente como PILA, se extiende sobre 207,000 hectáreas en los impresionantes macizos de la Cordillera Central, entre las provincias de Chiriquí y Bocas del Toro. ',
             './sitios/amistad.jpg',
             75.00,
             random.sample(beneficios, random.randint(3,6))
@@ -73,28 +73,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Valle de Antón',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Valle de Antón es el cráter de un antiguo volcán. Se sitúa a 600 metros sobre el nivel del mar y, en su centro, se ubica el pueblo de El Valle. La presencia de este poblado lo convierte en uno de los pocos cráteres volcánicos permanentemente habitados del planeta.',
             './sitios/anton.jpg',
             125.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Riviera Pacifica',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'En la Riviera del Pacífico, a las afueras de la ciudad de Panamá, hay un grupo de hermosas playas de arena blanca y aguas cálidas que reflejan el cielo azul. Esta zona costera perteneciente a las provincias de Panamá Oeste y Coclé; Es el hogar de una variedad de resorts de servicio completo, campos de golf, deportes acuáticos y proximidad al destino turístico y volcánico de El Valle.',
             './sitios/riviera.jpg',
             140.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Parque Arqueologico El Caño',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Parque Arqueológico El Caño muestra cómo eran las sociedades que habitaban Panamá antes de la conquista. El sitio arqueológico, donde aún se efectuan excavaciones y estudios, incluye una extensa necrópolis con montículos funerarios y un centro ceremonial con alineamientos de columnas de basalto que fueron utilizados entre los años 700 y 1000.',
             './sitios/caño.jpg',
             80.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'El Copé',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Copé es un pequeño pueblo pintoresco, de gente laboriosa, clima agradable y fresco y muchos atractivos turísticos. Se cultiva la naranja y el café y sus pobladores se dedican en su mayoría a las actividades agrícolas y a la ganadería.',
             './sitios/cope.jpg',
             79.00,
             random.sample(beneficios, random.randint(3,6))
@@ -102,28 +102,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Portobelo',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Portobelo fue el puerto colonial más importante del Caribe panameño y hoy es la capital de la cultura Congo. Entre los siglos XVI y XVIII, Portobelo recibía los galeones venidos de España y los cargaba con el oro y la plata de América. La llegada de la flota más rica del Caribe la convirtió en el núcleo comercial de la región y en el objetivo de naciones enemigas, de piratas y corsarios.',
             './sitios/portobelo.jpg',
             210.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Isla Grande',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Despierta en la paradisíaca Isla Grande con el canto de los pájaros y el sonido de las olas que te invitan a disfrutar de sus playas de arena blanca y aguas cristalinas; ideal para buceo, snorkel y surf. Atraviesa su pintoresca comunidad poblada de personas hospitalarias y felices, y culmina la ruta en la cima del faro',
             './sitios/grande.jpg',
             200.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'San Lorenzo',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'San Lorenzo guarda las ruinas del fuerte español más poderoso de Panamá, entre la jungla y el mar. Construido en 1601 por órdenes del rey de España, el Castillo de San Lorenzo el Real custodiaba la entrada y salida de la principal ruta de América. Incontables riquezas eran transportadas por el río Chagres que, junto con el camino de Cruces por tierra, formaba una vital vía de comunicación entre los dos océanos. ',
             './sitios/lorenzo.jpg',
             110.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Cayo Tortuga',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Ubicada en la Costa Atlántica en la Provincia de Colón, también posee grandes atractivos turísticos y éste es el caso el Corregimiento de Nombre de Dios ubicado en el Distrito de Santa Isabel, donde se encuentra el área de Cayo Tortuga. Con arenas blancas y aguas cristalinas, Cayo Tortuga se convertirá pronto en destino turístico, pues actualmente se encuentra en su primera fase de construcción. ',
             './sitios/tortuga.jpg',
             100.00,
             random.sample(beneficios, random.randint(3,6))
@@ -131,28 +131,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Volcán Barú',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Parque Nacional Volcán Barú tiene la cima más alta de Panamá y es el mejor lugar para el senderismo de montaña. De sus 14.322 hectáreas, emerge el imponente Volcán Barú que supera en altura todas las montañas del país. Sus laderas, de arriba a abajo, están envueltas por 5 ecosistemas diferentes y son cruzadas por numerosos arroyos.',
             './sitios/baru.jpg',
             250.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Boquete',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Boquete es un entorno natural con temperaturas frescas que lo invitan a disfrutar de su exquisito manjar galardonado en todo el mundo: el café. El aleteo y el canto de los pájaros te llama a caminar por los senderos mientras la madre naturaleza invade tus sentidos. Sus puentes colgantes y paseos relajantes, sus aguas cristalinas, y sus abundantes y diversas flores se convierten en parte de su experiencia en Boquete.',
             './sitios/boquete.jpg',
             210.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Tierras Altas',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Su belleza natural, clima agradable y fresco, sus deliciosas fresas, su pesca de truchas y la degustación de su café con un sabor incomparable le transmitirán experiencias que permanecerán en usted. Tierras Altas, un destino ideal para aventureros y familias.',
             './sitios/altas.jpg',
             190.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Golfo de Chiriquí',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Golfo de Chiriquí te cautivará con sus hermosos escenarios dentro de cada amanecer y atardecer. Sus placenteras playas, sus aguas transparentes y tranquilas, sus vividas islas y su naturaleza embellecedora se convertirán en tu aventura perfecta. Aquí podrás realizar pesca deportiva, paseos en botes, avistamiento de cetáceos, y disfrutar de su gastronomía propia de frutos del mar.',
             './sitios/golfochiriqui.jpg',
             140.00,
             random.sample(beneficios, random.randint(3,6))
@@ -160,28 +160,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Parque Nacional Darien',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Parque Nacional Darién es un ambiente mágico selvático al que se puede llegar de más de una forma para apreciar impresionantes paisajes de selva virgen. Desde la Ciudad de Panamá vía aérea hasta la comunidad más cercana al Parque, Por su extraordinaria diversidad biológica y su alto valor genético, además de los grupos que guardan y practican tradiciones ancestrales, el Parque Nacional Darién fue declarado en 1981 Reserva de la Biósfera de la Humanidad.',
             './sitios/darien.jpg',
             105.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Yaviza',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Yaviza es un corregimeinto de Panamá a unos 97 km de la frontera con Colombia. Da nombre a un pequeño poblado perteneciente al distrito de Pinogana. En Yaviza existen ruinas que eran de la época colonial, conocidas como la Casa-Fuerte de San Gerónimo, fue construida en 1760 frente al río Chucunaque y fue destruida por los gunas en 1780. Los factores medioambientales la han deteriorado y una riada se llevó la mitad del fuerte a mediados del siglo XX.',
             './sitios/yaviza.jpg',
             200.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Garachine',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Visitar Garachiné, en la provincia de Darién, Panamá, es para aventureros. No cualquiera puede tolerar el complicado viaje y la falta de amenidades. Los que se atrevan a embarcar en la expedición, serán recompensados con un pueblo lleno de gente amable. Esta localidad bordea la frontera con Colombia, un lugar tradicionalmente considerado como peligroso: narcotráfico, guerrilla y malaria vienen a la mente de muchos.',
             './sitios/garachine.jpg',
             195.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'La Palma',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'La Palma es la capital de la provincia panameña de Darién,​ situada a orillas del océano Pacífico, en el extremo de una amplia península que separa la desembocadura del río Tuira (sinuoso estuario llamado golfo de San Miguel) de la recogida bahía o ensenada de Garachiné.',
             './sitios/palma.jpg',
             120.00,
             random.sample(beneficios, random.randint(3,6))
@@ -189,28 +189,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Museo de Arte Religioso Colonial',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El sitio actual del Museo del Arte Religioso Colonial fue anteriormente una capilla, que fue construida posterior al incendio que destruyó el templo y convento original. Cuando se levanta la Capilla de Santo Domingo de Guzmán en el siglo XVIII, la ciudad de Panamá ya tenía más de 2 siglos de existencia. Las piezas que se exhiben en este Museo, pertenecen a familias e iglesias de la Ciudad de Panamá y del interior del País. ',
             './sitios/colonial.jpg',
             98.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Parque nacional de Sarigua',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Parque Nacional Sarigua, ubicado en la comunidad de Parita, Provincia de Herrera, cubre una superficie de 8,000 hectáreas en lo que corresponde a áreas de ecosistema marino y albina semidesertica. Este es un lugar de un importante asentamiento precolombino que data de 11,000 años de antigüedad.',
             './sitios/sarigua.jpg',
             84.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
-            'Arena de Herrera',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'La Arena',
+            'El corregimiento de La Arena es famoso por sus bellas obras de alfarería y cerámicas elaboradas por los artesanos del pueblo que con esmero se levantan cada día a trabajar en sus propios negocios de ventas de potes, tinajas, cazuelas, vajillas, tejas, recordatorios con vivos colores, entre otros. Todos estos artículos son muestra del secreto antiguo de los areneros para moldear el barro.',
             './sitios/arena.jpg',
             115.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Reserva Forestal el Montuoso',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'La Reserva Forestal se encuentra ubicada en el extremo norte del macizo occidental de Azuero y comprende parches de bosques interconectados con bosques de galería. En el área la mayoría de las pendientes son fuertes, destacándose las siguientes elevaciones: la cordillera de La Huaca y la cordillera de El Montuoso.',
             './sitios/montuoso.jpg',
             130.00,
             random.sample(beneficios, random.randint(3,6))
@@ -218,28 +218,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Playa Venao',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Playa Venao es un lugar de surf de fama local a 34 km al suroeste de Pedasí. Playa Venao tiene, sin lugar a dudas, el mejor surf de la península de Azuero, con olas que rompen en ambas direcciones y son perfectas para todos los niveles. La playa de arena gris aquí es agradable, se extiende en un gran arco y está rodeada por una ladera con curvas.',
             './sitios/venao.jpg',
             230.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Parque Nacional Cerro Hoya',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Parque Nacional Cerro Hoya o Tres Cerros, se encuentra en el extremo suroccidental de la península de Azuero, sobre las costas del pacífico panameño en la sierra de Azuero, compartido entre la provincia de Los Santos, y el distrito de Mariato. ',
             './sitios/hoya.jpg',
             155.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Playa El Arenal',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Playa El Arenal te sorprenderá. Sus aguas son más cristalinas que Playa El Toro y Playa La Garita, las más cercanas al pueblo de Pedasí (ubicado a 5 horas de la Ciudad de Panamá en la Provincia de Los Santos). Pero también es el lugar indicado para tomar las lanchas o botes que te llevarán a uno de los lugares más paradisíacos de Panamá: Isla Iguana.',
             './sitios/arenal.jpg',
             110.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Isla Iguana',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Isla Iguana es la principal atracción natural de la Península de Azuero y ofrece la única playa de arena blanca de esa región y hermosas aguas cristalinas. Isla Iguana es un paraíso aislado, considerado un refugio de vida silvestre, habitado solo por aves raras, lagartos gigantes y cangrejos morados y rojos.',
             './sitios/iguana.jpg',
             110.00,
             random.sample(beneficios, random.randint(3,6))
@@ -247,28 +247,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Isla Taboga',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Taboga es la isla más grande que se ve desde la ciudad y es el perfecto rincón de playa para refugiarse del frenesí de la capital. La escarpada cima de la isla está dominada por el cerro El Vigía de 305 metros de altura, que ofrece una vista incomparable del pueblo, del océano y de la ciudad de Panamá. Taboga se sitúa a solo 20 kilómetros de la costa y es fácilmente accesible por ferry.',
             './sitios/taboga.jpg',
             145.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Panamá Viejo',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Panamá Viejo es el conjunto de ruinas de la primera ciudad de Panamá, fundada por el noble castellano Pedrarias Dávila en 1519. Fue el primer asentamiento europeo a orillas del océano Pacífico y fue el lugar en el que se organizaron varias expediciones; incluyendo las de Francisco Pizarro hacia el Perú. Panama Viejo fue declarado Patrimonio Mundial de la Humanidad por la UNESCO en 1997.',
             './sitios/viejo.jpg',
             65.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Casco Antiguo',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Casco Antiguo es el corazón histórico y cultural de la capital panameña. Fue fundado en 1673 como la ciudad de Panamá la Nueva, luego de la destrucción de la ciudad original durante un ataque pirata. Esta rica historia continúa reflejada en los edificios de ladrillos, de cal y canto; que hoy albergan museos, exposiciones, y vibrantes bares y restaurantes.',
             './sitios/antiguo.jpg',
             270.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Canal de Panama',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Canal de Panamá es el mayor atajo del planeta y es una de las maravillas del mundo moderno. Sus 80 kilómetros de longitud conectan los océanos Atlántico y Pacífico a través de la porción más estrecha del continente. Hoy esta maravilla de la tecnología puede ser descubierta en dos centros de visitantes con miradores, exhibiciones y salas de proyección.',
             './sitios/canal.jpg',
             90.00,
             random.sample(beneficios, random.randint(3,6))
@@ -276,28 +276,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Parque Nacional Coiba',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Parque Nacional Coiba ofrece atractivos como playas, buceo y pesca a lo largo de todo su perímetro costero. Las arenas muy finas y la transparencia del agua son las características de las playas. Al Parque Nacional Coiba se puede llegar vía aérea desde la Ciudad de Panamá hasta la Ciudad de Santiago en 20 minutos, o por carretera (245 kilómetros) en 5 horas.',
             './sitios/coiba.jpg',
             35.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Santa Fe',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Santa Fe se encuentra en las tierras altas de Veraguas, un paraíso ecológico, hogar a una amplia variedad de animales y plantas, incluidas las orquídeas. Nuestra selva tropical es ideal para practicar senderismo y observación de aves. Este hermoso lugar tiene más de 50 cascadas para explorar, nadar y reconectarse con la naturaleza.',
             './sitios/santa.jpg',
             65.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'La Yeguada',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            ' La Yeguada es uno de los mejores lugares donde acampar en Panamá porque tiene unas bonitas vistas y un clima fresco. Es parte de la reserva del bosque para cuidar de la cuenca de la Laguna de La Yeguada.Se compone de numerosas colinas y cascadas que pueden alcanzar 25 metros (Cascade El Desvio). Este tipo de visitas con la posibilidad de acampar en la naturaleza son perfectos para los jóvenes.',
             './sitios/yeguada.jpg',
             95.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Playa Morillo',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Playa Morrillo, una playa semidesierta ubicada en la provincia de Veraguas, un poco fuera del mapa, de hecho no está en el mapa. Esta playa es para los más aventureros, aunque tiene hospedaje y camino, está un poco escondida. Esta playa es un destino especial para surfistas de todas las categorías porque ofrece una ola que en su mejor momento es un tubo espectacular, además de que es incluso un lugar secreto panameño.',
             './sitios/morrillo.jpg',
             80.00,
             random.sample(beneficios, random.randint(3,6))
@@ -305,28 +305,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Parque Nacional Altos de Campana',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'A tan solo unos 70 km de la Ciudad de Panamá se encuentra el parque nacional más antiguo del país, el Parque Nacional Altos de Campana. Creado en 1966, este parque cubre 4816 hectáreas en las montañas de Campana, una serranía que se eleva imponente en esta sección de la carretera panamericana',
             './sitios/campana.jpg',
             75.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'La Laguna San Carlos',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'La Laguna de San Carlos se encuentra a unos 850 metros sobre el nivel del mar, a este misterioso lugar se le desconoce el origen, además de su profundidad, La Laguna se encuentra en las faldas del Cerro Picacho. Este lugar es ideal para desconectarse de la ciudad, del ruido, acostarse en suelo, descansar, leer un buen libro o realizar un picnic, la temperatura es súper agradable.',
             './sitios/laguna.jpg',
             120.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Punta Chame',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Punta Chame es un lugar popular para practicar windsurf a lo largo de la Bahía de Chame en el centro de Panamá. Está a solo una hora y media en automóvil de la ciudad de Panamá, lo que lo convierte en un lugar popular entre los adictos a la adrenalina de la ciudad. En muchos sentidos, este es un destino para escapar de todo, ya que hay poco al final de la península aparte de una escuela de windsurf, algunos alojamientos y algunas residencias.',
             './sitios/chame.jpg',
             45.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Altos del María',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Altos del María es la comunidad residencial de montaña más exclusiva de Panamá. Con un clima agradable, impresionantes vistas panorámicas, naturaleza exuberante, tranquilidad y con todas las comodidades que ofrece un proyecto de la ciudad.',
             './sitios/maria.jpg',
             780.00,
             random.sample(beneficios, random.randint(3,6))
@@ -334,21 +334,21 @@ sitios = [
     ],[
         SitioTuristico(
             'Cerro Tacarcuna',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El cerro Tacarcuna es la máxima altura del Darién, a 1.875 msnm.Está ubicado en Panamá, en la serranía del Darién, muy cerca de la frontera entre Colombia y Panamá. Los bosques tropicales del cerro Tacarcuna son reconocidos por su elevadísima biodiversidad y por presentar gran número de endemismos. En Panamá son protegidos por el parque nacional Darién y en Colombia por el parque nacional natural de Los Katíos.',
             './sitios/tacarcuna.jpg',
             20.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Parque Nacional Darién',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Parque Nacional Darién es un ambiente mágico selvático al que se puede llegar de más de una forma para apreciar impresionantes paisajes de selva virgen. Desde la Ciudad de Panamá vía aérea hasta la comunidad más cercana al Parque, Por su extraordinaria diversidad biológica y su alto valor genético, además de los grupos que guardan y practican tradiciones ancestrales, el Parque Nacional Darién fue declarado en 1981 Reserva de la Biósfera de la Humanidad.',
             './sitios/darien.jpg',
             40.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Lajas Blancas',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Lajas Blancas es un corregimiento de la comarca indígena panameña de Emberá-Wounaan.',
             './sitios/lajas.jpg',
             125.00,
             random.sample(beneficios, random.randint(3,6))
@@ -356,28 +356,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Archipielago de San Blas',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El archipiélago de San Blas está compuesto por más de trescientas islas e islotes. Se extiende desde Panamá hasta Colombia y está catalogado como uno de los tres lugares más bellos del mundo.',
             './sitios/sanblas.jpg',
             135.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Ukupseni',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Ukupseni es el nombre kuna del pueblo mejor conocido como Playón Chico. El pueblo está ubicado en una isla bastante cercana a la costa. Tanto así que a tierra firme la une un puente peatonal de unos 300 metros de largo.',
             './sitios/ukupseni.jpg',
             100.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Arridup',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'La isla está a unos 40 minutos de navegación desde el Lodge, pero el trayecto vale la pena ¡y mucho! En cuanto a las playas, sencillamente insuperables. Aguas cristalinas, arenas blancas, fondo de palmeras…. En fin, se pueden empapelar muchas agencias de turismo con fotos de este sitio.',
             './sitios/arridup.jpg',
             70.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Icodub',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Con solo 1 hectárea aproximadamente de terreno, se puede nadar y descansar, para amigos, familias o parejas. Puedes pasar el día, acampar o hospedarte. Icodub es la isla ideal para pasar el día.',
             './sitios/icodub.jpg',
             75.00,
             random.sample(beneficios, random.randint(3,6))
@@ -385,28 +385,28 @@ sitios = [
     ],[
         SitioTuristico(
             'Kusapín',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Kusapín (Sabricotte) es un distrito de la provincia indígena panameña Ngobe Bugle. Su capital es la localidad de Kusapín, tiene una superficie de 1.693,2 km2 y una población de 33.121 habitantes.',
             './sitios/kusapin.jpg',
             75.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'El Salto de la Tulivieja',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'El Salto de La Tulivieja, es uno de los grandes atractivos turísticos que se encuentra en el distrito de Besiko, comunidad que está ubicada en la comunidad de Karicho y que pertenece al área de Soloy, en la Comarca Ngöbe Buglé.',
             './sitios/tulivieja.jpg',
             45.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Salto Qui-Qui',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
-            './sitios/canal.quiqui',
+            'Se localiza en la comunidad de Soloy, comarca Ngäbe Buglé. También conocida como el chorro de La Maestra debido a que en ese lugar pereció una maestra muy querida por los lugareños.',
+            './sitios/quiqui.jpg',
             20.00,
             random.sample(beneficios, random.randint(3,6))
         ),
         SitioTuristico(
             'Salto Romelio',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi sit amet mi euismod porta. In vehicula nisi nec rutrum faucibus. Nullam at tempor est. Quisque ac tincidunt neque, placerat facilisis ex. Maecenas pharetra ipsum sit amet lectus rutrum, id laoreet elit venenatis. Ut tempus ex nunc, id blandit enim viverra ut. In lacinia tristique rhoncus. Mauris dapibus nisl in risus vehicula efficitur. Ut eget ante in sem mollis finibus sed id nunc.',
+            'Salto romelio es uno de los saltos más impresionantes de todo el país y probablemente el segundo más alto de todo el país, con una altura de aproximadamente 200 metros.',
             './sitios/romelio.jpg',
             30.00,
             random.sample(beneficios, random.randint(3,6))
