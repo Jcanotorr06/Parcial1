@@ -1137,6 +1137,39 @@ class Ui_main(object):
         self.bt_salir.setText(_translate("main", "Salir"))
 
 
+class Ui_Presentacion(object):
+    def setupUi(self, Presentacion, main):
+        Presentacion.setObjectName("Presentacion")
+        Presentacion.resize(564, 690)
+        self.presentacion = QtWidgets.QLabel(Presentacion)
+        self.presentacion.setGeometry(QtCore.QRect(0, 0, 561, 611))
+        self.presentacion.setText("")
+        self.presentacion.setPixmap(QtGui.QPixmap("presentacion.png"))
+        self.presentacion.setScaledContents(True)
+        self.presentacion.setObjectName("presentacion")
+        self.btn_cont = QtWidgets.QPushButton(Presentacion)
+        self.btn_cont.setGeometry(QtCore.QRect(400, 610, 151, 71))
+        font = QtGui.QFont()
+        font.setFamily("SansSerif")
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setWeight(75)
+        self.btn_cont.setFont(font)
+        self.btn_cont.setObjectName("btn_cont")
+        self.btn_cont.clicked.connect(lambda:self.continuar(main, Presentacion))
+
+        self.retranslateUi(Presentacion)
+        QtCore.QMetaObject.connectSlotsByName(Presentacion)
+
+    def continuar(self, main, Presentacion):
+        main.show()
+        Presentacion.close()
+        
+    def retranslateUi(self, Presentacion):
+        _translate = QtCore.QCoreApplication.translate
+        Presentacion.setWindowTitle(_translate("Presentacion", "Presentación"))
+        self.btn_cont.setText(_translate("Presentacion", "Continuar"))
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -1146,5 +1179,8 @@ if __name__ == "__main__":
     main = QtWidgets.QMainWindow()
     ui = Ui_main()
     ui.setupUi(main, Provincias, sitio, Reservar)
-    main.show()
+    Presentacion = QtWidgets.QWidget()
+    pui = Ui_Presentacion()
+    pui.setupUi(Presentacion, main)
+    Presentacion.show()
     sys.exit(app.exec_())
